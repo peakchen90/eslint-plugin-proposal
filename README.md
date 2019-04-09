@@ -24,9 +24,6 @@ Add `proposal-class` to the plugins section of your `.eslintrc` configuration fi
 
 ```json
 {
-  "parserOptions": {
-    "ecmaVersion": 6,
-  },
   "plugins": [
     "proposal-class"
   ]

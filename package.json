@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-proposal-class",
-  "version": "0.0.2",
+  "version": "0.0.5",
   "description": "some rules for class proposal. eg: class property.",
   "keywords": [
     "eslint",
@@ -21,7 +21,7 @@
   "homepage": "https://github.com/peakchen90/eslint-plugin-proposal-class",
   "bugs": "https://github.com/peakchen90/eslint-plugin-proposal-class/issues",
   "peerDependencies": {
-    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0"
+    "eslint": "^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
