@@ -1,19 +1,27 @@
 {
   "name": "eslint-plugin-proposal-class",
-  "version": "0.0.0",
-  "description": "proposal-class",
+  "version": "0.0.2",
+  "description": "some rules for class proposal. eg: class property.",
   "keywords": [
     "eslint",
     "eslintplugin",
-    "eslint-plugin"
+    "eslint-plugin",
+    "proposal-class",
+    "class"
   ],
   "author": "peakchen90 <1558267774@qq.com>",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "test": "mocha tests --recursive"
   },
-  "dependencies": {
-    "requireindex": "~1.1.0"
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peakchen90/eslint-plugin-proposal-class"
+  },
+  "homepage": "https://github.com/peakchen90/eslint-plugin-proposal-class",
+  "bugs": "https://github.com/peakchen90/eslint-plugin-proposal-class/issues",
+  "peerDependencies": {
+    "eslint": "^3.0.0 || ^4.0.0 || ^5.0.0"
   },
   "devDependencies": {
     "babel-eslint": "^10.0.1",
