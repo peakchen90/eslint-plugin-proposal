@@ -1,0 +1,27 @@
+{
+  "name": "eslint-plugin-proposal-class",
+  "version": "0.0.0",
+  "description": "proposal-class",
+  "keywords": [
+    "eslint",
+    "eslintplugin",
+    "eslint-plugin"
+  ],
+  "author": "peakchen90 <1558267774@qq.com>",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha tests --recursive"
+  },
+  "dependencies": {
+    "requireindex": "~1.1.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.1",
+    "eslint": "^4.19.1",
+    "mocha": "^3.1.2"
+  },
+  "engines": {
+    "node": ">=4"
+  },
+  "license": "MIT"
+}
