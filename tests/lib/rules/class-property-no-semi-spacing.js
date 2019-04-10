@@ -1,12 +1,12 @@
 const RuleTester = require('eslint').RuleTester
-const rule = require('../../../lib/rules/class-property-no-extra-semi')
+const rule = require('../../../lib/rules/class-property-no-semi-spacing')
 
 new RuleTester({
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6
   }
-}).run('class-property-no-extra-semi', rule, {
+}).run('class-property-no-semi-spacing', rule, {
   valid: [
     {
       code: `
@@ -41,43 +41,43 @@ new RuleTester({
     {
       code: `
         class A {
-          static foo = 'Alice';;
+          static foo = 'Alice' ;
         }
       `,
       errors: [{
-        message: 'Unnecessary semicolon.'
+        message: 'Unexpected whitespace before semicolon.'
       }]
     },
     {
       code: `
         class A {
-          static foo = 'Alice';
+          static foo = 'Alice'
           ;
         }
       `,
       errors: [{
-        message: 'Unnecessary semicolon.'
+        message: 'Unexpected whitespace before semicolon.'
       }]
     },
     {
       code: `
         class A {
-          bar = () => {};;
+          bar = () => {} ;
         }
       `,
       errors: [{
-        message: 'Unnecessary semicolon.'
+        message: 'Unexpected whitespace before semicolon.'
       }]
     },
     {
       code: `
         class A {
-          bar = () => {};
+          bar = () => {}
           ;
         }
       `,
       errors: [{
-        message: 'Unnecessary semicolon.'
+        message: 'Unexpected whitespace before semicolon.'
       }]
     }
   ]
