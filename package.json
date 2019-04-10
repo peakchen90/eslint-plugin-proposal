@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-proposal-class",
-  "version": "0.0.14",
+  "version": "1.0.0",
   "description": "some rules for proposal class. eg: class property.",
   "keywords": [
     "eslint",
