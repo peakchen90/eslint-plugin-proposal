@@ -1,4 +1,4 @@
-# require spacing around infix operator '=' in the class property (class-property-space-infix)
+# require spacing around infix operator '=' in class property (proposal-class/class-property-space-infix)
 
 This rule allows you to enforce spaced around operator '=' in the class property.
 
@@ -21,7 +21,6 @@ This rule accepts a single options argument. default `always`, it must has infix
 ```js
 class A {
   static foo = 'Alice'
-
   bar = () => {}
 }
 ```
@@ -32,7 +31,6 @@ class A {
 /* eslint proposal-class/class-property-space-infix: ["error", "never"] */
 class A {
   static foo='Alice'
-
   bar=() => {}
 }
 ```
@@ -40,19 +38,34 @@ class A {
 ## Example
 
 ### invalid
+
+```js
+class A {
+  static foo='Alice'
+  bar=() => {}
+}
+```
+
 ```js
 class A {
   static foo= 'Alice'
-
   bar =() => {}
 }
 ```
 
+```js
+/* eslint proposal-class/class-property-space-infix: ["error", "never"] */
+class A {
+  static foo = 'Alice'
+  bar = () => {}
+}
+```
+
 ### valid
+
 ```js
 class A {
   static foo = 'Alice'
-
   bar = () => {}
 }
 ```
@@ -61,7 +74,6 @@ class A {
 /* eslint proposal-class/class-property-space-infix: ["error", "never"] */
 class A {
   static foo='Alice'
-
   bar=() => {}
 }
 ```

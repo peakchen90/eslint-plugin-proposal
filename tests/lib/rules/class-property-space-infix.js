@@ -11,15 +11,6 @@ new RuleTester({
     {
       code: `
         class A {
-          constructor() {}
-
-          foo() {}
-        }
-      `
-    },
-    {
-      code: `
-        class A {
           static foo = 'Alice'
           bar = () => {}
         }
@@ -28,7 +19,21 @@ new RuleTester({
     {
       code: `
         class A {
+          bar = () => {}
+        }
+      `
+    },
+    {
+      code: `
+        class A {
           static foo='Alice'
+        }
+      `,
+      options: ['never']
+    },
+    {
+      code: `
+        class A {
           bar=() => {}
         }
       `,
@@ -44,64 +49,84 @@ new RuleTester({
       `,
       options: ['always'],
       errors: [{
-        message: 'Operator \'=\' must be spaced'
+        message: 'Operator \'=\' must be spaced.'
       }]
     },
     {
       code: `
         class A {
-          bar=() => {}
+          static foo ='Alice'
         }
       `,
       options: ['always'],
       errors: [{
-        message: 'Operator \'=\' must be spaced'
+        message: 'Operator \'=\' must be spaced.'
       }]
     },
     {
       code: `
         class A {
-          bar= () => {}
+          static foo= 'Alice'
         }
       `,
       options: ['always'],
       errors: [{
-        message: 'Operator \'=\' must be spaced'
-      }]
-    },
-    {
-      code: `
-        class A {
-          bar =() => {}
-        }
-      `,
-      options: ['always'],
-      errors: [{
-        message: 'Operator \'=\' must be spaced'
+        message: 'Operator \'=\' must be spaced.'
       }]
     },
     {
       code: `
         class A {
           static foo = 'Alice'
-          bar=() => {}
-        }
-      `,
-      options: ['always'],
-      errors: [{
-        message: 'Operator \'=\' must be spaced'
-      }]
-    },
-    {
-      code: `
-        class A {
-          static foo = 'Alice'
-          bar=() => {}
         }
       `,
       options: ['never'],
       errors: [{
-        message: 'Operator \'=\' must be spaced'
+        message: 'Operator \'=\' should not be spaced.'
+      }]
+    },
+    {
+      code: `
+        class A {
+          static foo= 'Alice'
+        }
+      `,
+      options: ['never'],
+      errors: [{
+        message: 'Operator \'=\' should not be spaced.'
+      }]
+    },
+    {
+      code: `
+        class A {
+          static foo ='Alice'
+        }
+      `,
+      options: ['never'],
+      errors: [{
+        message: 'Operator \'=\' should not be spaced.'
+      }]
+    },
+    {
+      code: `
+        class A {
+          bar=() => {}
+        }
+      `,
+      options: ['always'],
+      errors: [{
+        message: 'Operator \'=\' must be spaced.'
+      }]
+    },
+    {
+      code: `
+        class A {
+          bar = () => {}
+        }
+      `,
+      options: ['never'],
+      errors: [{
+        message: 'Operator \'=\' should not be spaced.'
       }]
     }
   ]
