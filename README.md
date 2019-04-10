@@ -51,7 +51,7 @@ Then configure the rules you want to use under the rules section.
 ## List of supported rules
 
 * [proposal-class/class-property-space-infix-ops](./docs/rules/class-property-space-infix-ops.md) require or disallow spacing between operator '=' in class property.
-* [proposal-class/class-property-semi](./docs/rules/class-property-semi.md) rrequire or disallow semicolons instead of ASI in class property.
+* [proposal-class/class-property-semi](./docs/rules/class-property-semi.md) require or disallow semicolons instead of ASI in class property.
 
 
 ## Shareable configurations
