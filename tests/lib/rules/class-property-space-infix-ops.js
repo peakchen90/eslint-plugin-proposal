@@ -1,12 +1,12 @@
 const RuleTester = require('eslint').RuleTester
-const rule = require('../../../lib/rules/class-property-space-infix')
+const rule = require('../../../lib/rules/class-property-space-infix-ops')
 
 new RuleTester({
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6
   }
-}).run('class-property-space-infix', rule, {
+}).run('class-property-space-infix-ops', rule, {
   valid: [
     {
       code: `

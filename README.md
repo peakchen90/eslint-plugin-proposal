@@ -43,14 +43,14 @@ Then configure the rules you want to use under the rules section.
 ```json
 {
   "rules": {
-    "proposal-class/class-property-space-infix": "error"
+    "proposal-class/class-property-space-infix-ops": "error"
   }
 }
 ```
 
 ## List of supported rules
 
-* [proposal-class/class-property-space-infix](./docs/rules/class-property-space-infix.md) require spacing around infix operator '=' in class property.
+* [proposal-class/class-property-space-infix-ops](./docs/rules/class-property-space-infix-ops.md) require or disallow spacing between operator '=' in class property.
 * [proposal-class/class-property-semi](./docs/rules/class-property-semi.md) rrequire or disallow semicolons instead of ASI in class property.
 
 
@@ -71,5 +71,5 @@ To enable this configuration use the extends property in your .eslintrc config f
 
 The rules enabled in this configuration are:
 
-* [proposal-class/class-property-space-infix](./docs/rules/class-property-space-infix.md)
+* [proposal-class/class-property-space-infix-ops](./docs/rules/class-property-space-infix-ops.md)
 

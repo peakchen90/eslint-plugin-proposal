@@ -1,7 +1,7 @@
+const requireIndex = require("requireindex");
+
 module.exports = {
-  rules: {
-    'class-property-space-infix': require('./lib/rules/class-property-space-infix')
-  },
+  rules: requireIndex(__dirname + '/lib/rules'),
   configs: {
     recommended: {
       parser: 'babel-eslint',
@@ -12,7 +12,7 @@ module.exports = {
         'proposal-class'
       ],
       rules: {
-        "proposal-class/class-property-space-infix": "error"
+        "proposal-class/class-property-space-infix-ops": "error"
       }
     }
   }
