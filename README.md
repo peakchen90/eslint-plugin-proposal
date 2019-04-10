@@ -1,7 +1,6 @@
 # eslint-plugin-proposal-class
 
 [![Travis (.org) branch](https://img.shields.io/travis/peakchen90/eslint-plugin-proposal-class/master.svg)](https://travis-ci.org/peakchen90/eslint-plugin-proposal-class)
-[![Codecov](https://img.shields.io/codecov/c/github/peakchen90/eslint-plugin-proposal-class.svg)](https://codecov.io/gh/peakchen90/eslint-plugin-proposal-class)
 [![npm](https://img.shields.io/npm/v/eslint-plugin-proposal-class.svg)](https://www.npmjs.com/package/eslint-plugin-proposal-class)
 [![npm](https://img.shields.io/npm/dt/eslint-plugin-proposal-class.svg)](https://www.npmjs.com/package/eslint-plugin-proposal-class)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/peakchen90/eslint-plugin-proposal-class/blob/master/LICENSE)
