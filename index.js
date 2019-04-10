@@ -12,7 +12,7 @@ module.exports = {
         'proposal-class'
       ],
       rules: {
-        "proposal-class/class-property-space-infix": ["error", 1]
+        "proposal-class/class-property-space-infix": "error"
       }
     }
   }
