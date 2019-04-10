@@ -33,7 +33,7 @@ new RuleTester({
           bar=() => {}
         }
       `,
-      options: [false]
+      options: ['never']
     }
   ],
   invalid: [
@@ -43,7 +43,7 @@ new RuleTester({
           static foo='Alice'
         }
       `,
-      options: [true],
+      options: ['always'],
       errors: [{
         message: 'Operator \'=\' must be spaced'
       }]
@@ -54,7 +54,7 @@ new RuleTester({
           bar=() => {}
         }
       `,
-      options: [true],
+      options: ['always'],
       errors: [{
         message: 'Operator \'=\' must be spaced'
       }]
@@ -65,7 +65,7 @@ new RuleTester({
           bar= () => {}
         }
       `,
-      options: [true],
+      options: ['always'],
       errors: [{
         message: 'Operator \'=\' must be spaced'
       }]
@@ -76,7 +76,7 @@ new RuleTester({
           bar =() => {}
         }
       `,
-      options: [true],
+      options: ['always'],
       errors: [{
         message: 'Operator \'=\' must be spaced'
       }]
@@ -88,7 +88,7 @@ new RuleTester({
           bar=() => {}
         }
       `,
-      options: [true],
+      options: ['always'],
       errors: [{
         message: 'Operator \'=\' must be spaced'
       }]
@@ -100,7 +100,7 @@ new RuleTester({
           bar=() => {}
         }
       `,
-      options: [false],
+      options: ['never'],
       errors: [{
         message: 'Operator \'=\' must be spaced'
       }]
