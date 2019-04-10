@@ -8,8 +8,6 @@ The `--fix` option on the command line can automatically fix some of the problem
 
 This rule allows you to enforce disallow unnecessary semicolons in class property.
 
-## Options
-
 ## Examples of **incorrect** code for this rule:
 
 ```js
