@@ -35,9 +35,7 @@ class A {
 }
 ```
 
-## Example
-
-### invalid
+## Examples of **incorrect** code for this rule:
 
 ```js
 class A {
@@ -61,7 +59,7 @@ class A {
 }
 ```
 
-### valid
+## Examples of **correct** code for this rule:
 
 ```js
 class A {

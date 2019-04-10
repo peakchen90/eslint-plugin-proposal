@@ -1,4 +1,4 @@
-const requireIndex = require("requireindex");
+const requireIndex = require('requireindex');
 
 module.exports = {
   rules: requireIndex(__dirname + '/lib/rules'),
@@ -12,7 +12,8 @@ module.exports = {
         'proposal-class'
       ],
       rules: {
-        "proposal-class/class-property-space-infix-ops": "error"
+        'proposal-class/class-property-space-infix-ops': 'error',
+        'proposal-class/class-property-no-extra-semi': 'error'
       }
     }
   }

@@ -52,6 +52,7 @@ Then configure the rules you want to use under the rules section.
 
 * [proposal-class/class-property-space-infix-ops](./docs/rules/class-property-space-infix-ops.md) require or disallow spacing between operator '=' in class property.
 * [proposal-class/class-property-semi](./docs/rules/class-property-semi.md) require or disallow semicolons instead of ASI in class property.
+* [proposal-class/class-property-no-extra-semi](./docs/rules/class-property-no-extra-semi.md) disallow unnecessary semicolons in class property.
 
 
 ## Shareable configurations
@@ -72,4 +73,5 @@ To enable this configuration use the extends property in your .eslintrc config f
 The rules enabled in this configuration are:
 
 * [proposal-class/class-property-space-infix-ops](./docs/rules/class-property-space-infix-ops.md)
+* [proposal-class/class-property-no-extra-semi](./docs/rules/class-property-no-extra-semi.md)
 
