@@ -1,7 +1,7 @@
 const requireIndex = require('requireindex');
 
 module.exports = {
-  rules: requireIndex(__dirname + '/lib/rules'),
+  rules: requireIndex(`${__dirname}/lib/rules`),
   configs: {
     recommended: {
       parser: 'babel-eslint',
@@ -18,4 +18,4 @@ module.exports = {
       }
     }
   }
-}
+};

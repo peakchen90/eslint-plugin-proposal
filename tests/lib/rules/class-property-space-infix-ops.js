@@ -1,5 +1,5 @@
-const RuleTester = require('eslint').RuleTester
-const rule = require('../../../lib/rules/class-property-space-infix-ops')
+const RuleTester = require('eslint').RuleTester;
+const rule = require('../../../lib/rules/class-property-space-infix-ops');
 
 new RuleTester({
   parser: 'babel-eslint',
@@ -130,4 +130,4 @@ new RuleTester({
       }]
     }
   ]
-})
+});

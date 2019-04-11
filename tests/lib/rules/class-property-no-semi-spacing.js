@@ -1,5 +1,5 @@
-const RuleTester = require('eslint').RuleTester
-const rule = require('../../../lib/rules/class-property-no-semi-spacing')
+const RuleTester = require('eslint').RuleTester;
+const rule = require('../../../lib/rules/class-property-no-semi-spacing');
 
 new RuleTester({
   parser: 'babel-eslint',
@@ -81,4 +81,4 @@ new RuleTester({
       }]
     }
   ]
-})
+});
