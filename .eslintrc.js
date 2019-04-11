@@ -14,6 +14,11 @@ module.exports = {
   rules: {
     'comma-dangle': 'off',
     'prefer-destructuring': 'off',
-    'consistent-return': 'off'
+    'consistent-return': 'off',
+    'func-names': 'off',
+    'arrow-parens': 'off',
+    'for-direction': 'off',
+    'no-plusplus': 'off',
+    'arrow-body-style': 'off'
   }
 }
