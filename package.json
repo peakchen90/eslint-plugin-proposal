@@ -22,7 +22,7 @@
   "homepage": "https://github.com/peakchen90/eslint-plugin-proposal-class",
   "bugs": "https://github.com/peakchen90/eslint-plugin-proposal-class/issues",
   "peerDependencies": {
-    "eslint": "^4.0.0 || ^5.0.0"
+    "eslint": ">=4.0.0"
   },
   "dependencies": {
     "requireindex": "^1.2.0"
@@ -35,7 +35,7 @@
     "mocha": "^3.1.2"
   },
   "engines": {
-    "node": ">=4"
+    "node": ">=6.0.0"
   },
   "license": "MIT"
 }

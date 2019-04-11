@@ -1,13 +1,14 @@
 # eslint-plugin-proposal-class
 
+![npm (tag)](https://img.shields.io/npm/v/eslint-plugin-proposal-class/latest.svg)
 [![Travis (.org) branch](https://img.shields.io/travis/peakchen90/eslint-plugin-proposal-class/master.svg)](https://travis-ci.org/peakchen90/eslint-plugin-proposal-class)
-[![npm](https://img.shields.io/npm/v/eslint-plugin-proposal-class.svg)](https://www.npmjs.com/package/eslint-plugin-proposal-class)
+![node](https://img.shields.io/node/v/eslint-plugin-proposal-class.svg)
+![npm peer dependency version](https://img.shields.io/npm/dependency-version/eslint-plugin-proposal-class/peer/eslint.svg)
 [![npm](https://img.shields.io/npm/dt/eslint-plugin-proposal-class.svg)](https://www.npmjs.com/package/eslint-plugin-proposal-class)
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/peakchen90/eslint-plugin-proposal-class/blob/master/LICENSE)
 
 
 some rules for proposal class. eg: class property.
-
 
 ## Installation
 
