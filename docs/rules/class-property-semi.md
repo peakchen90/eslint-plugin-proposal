@@ -13,7 +13,9 @@ This rule allows you to enforce require or disallow semicolons instead of ASI in
 This rule accepts a single options argument. default `always`, it for require semicolons, `never` for disallow semicolons.
 
 ```json
-"proposal-class/class-property-semi": ["error", "always"]
+{
+  "proposal-class/class-property-semi": ["error", "always"]
+}
 ```
 
 ### always

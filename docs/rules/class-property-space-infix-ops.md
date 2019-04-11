@@ -13,7 +13,9 @@ This rule allows you to enforce require or disallow spacing between operator '='
 This rule accepts a single options argument. default `always`, it for require spacing, `never` for disallow spacing.
 
 ```json
-"proposal-class/'class-property-space-infix-ops": ["error", "always"]
+{
+  "proposal-class/'class-property-space-infix-ops": ["error", "always"]
+}
 ```
 
 ### always
