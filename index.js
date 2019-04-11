@@ -14,7 +14,8 @@ module.exports = {
       rules: {
         'proposal-class/class-property-space-infix-ops': 'error',
         'proposal-class/class-property-no-extra-semi': 'error',
-        'proposal-class/class-property-no-semi-spacing': 'error'
+        'proposal-class/class-property-no-semi-spacing': 'error',
+        'proposal-class/no-dupe-class-property': 'error'
       }
     }
   }

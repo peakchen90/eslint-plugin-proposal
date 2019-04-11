@@ -54,6 +54,7 @@ Then configure the rules you want to use under the rules section.
 * [proposal-class/class-property-semi](./docs/rules/class-property-semi.md) require or disallow semicolons instead of ASI in class property.
 * [proposal-class/class-property-no-extra-semi](./docs/rules/class-property-no-extra-semi.md) disallow unnecessary semicolons in class property.
 * [proposal-class/class-property-no-semi-spacing](./docs/rules/class-property-no-semi-spacing.md) disallow spacing before semicolons in class property.
+* [proposal-class/no-dupe-class-property](./docs/rules/no-dupe-class-property.md) disallow duplicate class property.
 
 
 ## Shareable configurations
@@ -76,4 +77,5 @@ The rules enabled in this configuration are:
 * [proposal-class/class-property-space-infix-ops](./docs/rules/class-property-space-infix-ops.md)
 * [proposal-class/class-property-no-extra-semi](./docs/rules/class-property-no-extra-semi.md)
 * [proposal-class/class-property-no-semi-spacing](./docs/rules/class-property-no-semi-spacing.md)
+* [proposal-class/no-dupe-class-property](./docs/rules/no-dupe-class-property.md)
 

@@ -1,4 +1,4 @@
-# require or disallow spacing between operator '=' in class property (proposal-class/'class-property-space-infix-ops)
+# require or disallow spacing between operator '=' in class property (proposal-class/class-property-space-infix-ops)
 
 This rule allows you to enforce require or disallow spacing between operator '=' in class property.
 
