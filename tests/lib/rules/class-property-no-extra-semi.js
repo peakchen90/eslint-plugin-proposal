@@ -73,10 +73,12 @@ new RuleTester({
       code: `
         class A {
           bar = () => {};
-          ;
+          ;;
         }
       `,
       errors: [{
+        message: 'Unnecessary semicolon.'
+      }, {
         message: 'Unnecessary semicolon.'
       }]
     }
