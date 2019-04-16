@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-proposal-class",
-  "version": "1.1.2",
+  "version": "1.1.4",
   "description": "some rules for proposal class. eg: class property.",
   "keywords": [
     "eslint",
@@ -12,6 +12,10 @@
   ],
   "author": "peakchen90 <1558267774@qq.com>",
   "main": "index.js",
+  "files": [
+    "lib",
+    "index.js"
+  ],
   "scripts": {
     "test": "mocha tests --recursive"
   },
