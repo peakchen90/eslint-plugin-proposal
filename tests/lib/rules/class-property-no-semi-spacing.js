@@ -8,34 +8,18 @@ new RuleTester({
   }
 }).run('class-property-no-semi-spacing', rule, {
   valid: [
-    {
-      code: `
-        class A {
-          static foo = 'Alice';
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          bar = () => {};
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          static foo = 'Alice'
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          bar = () => {}
-        }
-      `
-    }
+    `class A {
+      static foo = 'Alice';
+    }`,
+    `class A {
+      bar = () => {};
+    }`,
+    `class A {
+      static foo = 'Alice'
+    }`,
+    `class A {
+      bar = () => {}
+    }`
   ],
   invalid: [
     {

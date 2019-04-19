@@ -8,63 +8,35 @@ new RuleTester({
   }
 }).run('class-property-no-dupe-property', rule, {
   valid: [
-    {
-      code: `
-        class A {
-          static foo = 'Alice'
-          static bar = 'Bob'
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          foo = () => {}
-          bar = () => {}
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          static foo = 'Alice'
-          foo = () => {}
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          static foo = 'Alice'
-          get foo() {}
-          set foo(x) {}
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          static foo = 'Alice'
-          static bar() {}
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          foo = () => {}
-          static foo() {}
-        }
-      `
-    },
-    {
-      code: `
-        class A {
-          static foo = 'Alice'
-          foo() {}
-        }
-      `
-    }
+    `class A {
+      static foo = 'Alice'
+      static bar = 'Bob'
+    }`,
+    `class A {
+      foo = () => {}
+      bar = () => {}
+    }`,
+    `class A {
+      static foo = 'Alice'
+      foo = () => {}
+    }`,
+    `class A {
+      static foo = 'Alice'
+      get foo() {}
+      set foo(x) {}
+    }`,
+    `class A {
+      static foo = 'Alice'
+      static bar() {}
+    }`,
+    `class A {
+      foo = () => {}
+      static foo() {}
+    }`,
+    `class A {
+      static foo = 'Alice'
+      foo() {}
+    }`
   ],
   invalid: [
     {
