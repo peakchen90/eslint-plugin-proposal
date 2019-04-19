@@ -15,7 +15,7 @@ module.exports = {
         'proposal/class-property-space-infix-ops': 'error',
         'proposal/class-property-no-extra-semi': 'error',
         'proposal/class-property-no-semi-spacing': 'error',
-        'proposal/no-dupe-class-property': 'error'
+        'proposal/class-property-no-dupe-property': 'error'
       }
     }
   }

@@ -1,12 +1,12 @@
 const RuleTester = require('eslint').RuleTester;
-const rule = require('../../../lib/rules/no-dupe-class-property');
+const rule = require('../../../lib/rules/class-property-no-dupe-property');
 
 new RuleTester({
   parser: 'babel-eslint',
   parserOptions: {
     ecmaVersion: 6
   }
-}).run('no-dupe-class-property', rule, {
+}).run('class-property-no-dupe-property', rule, {
   valid: [
     {
       code: `
