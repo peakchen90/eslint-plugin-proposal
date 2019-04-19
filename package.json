@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-proposal",
   "version": "1.1.6",
-  "description": "some rules for proposal class. eg: class property.",
+  "description": "some rules for ECMAScript proposal. eg: class property.",
   "keywords": [
     "eslint",
     "eslintplugin",

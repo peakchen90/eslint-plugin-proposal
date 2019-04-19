@@ -8,7 +8,7 @@
 [![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://github.com/peakchen90/eslint-plugin-proposal/blob/master/LICENSE)
 
 
-some rules for proposal class. eg: class property.
+some rules for ECMAScript proposal. eg: class property.
 
 ## Installation
 
