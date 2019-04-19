@@ -1,4 +1,4 @@
-# disallow duplicate class property (proposal-class/no-dupe-class-property)
+# disallow duplicate class property (proposal/no-dupe-class-property)
 
 This rule allows you to enforce disallow duplicate class property.
 

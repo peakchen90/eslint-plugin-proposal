@@ -1,4 +1,4 @@
-# require or disallow semicolons instead of ASI in class property (proposal-class/class-property-semi)
+# require or disallow semicolons instead of ASI in class property (proposal/class-property-semi)
 
 This rule allows you to enforce require or disallow semicolons instead of ASI in class property.
 
@@ -14,7 +14,7 @@ This rule accepts a single options argument. default `always`, it for require se
 
 ```json
 {
-  "proposal-class/class-property-semi": ["error", "always"]
+  "proposal/class-property-semi": ["error", "always"]
 }
 ```
 
@@ -30,7 +30,7 @@ class A {
 ### never
 
 ```js
-/* eslint proposal-class/class-property-semi: ["error", "never"] */
+/* eslint proposal/class-property-semi: ["error", "never"] */
 class A {
   static foo='Alice'
   bar=() => {}

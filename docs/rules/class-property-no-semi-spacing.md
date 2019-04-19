@@ -1,4 +1,4 @@
-# Disallow spacing before semicolons in class property (proposal-class/class-property-no-semi-spacing)
+# Disallow spacing before semicolons in class property (proposal/class-property-no-semi-spacing)
 
 This rule allows you to disallow spacing before semicolons in class property.
 

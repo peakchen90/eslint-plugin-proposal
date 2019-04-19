@@ -1,4 +1,4 @@
-# require or disallow spacing between operator '=' in class property (proposal-class/class-property-space-infix-ops)
+# require or disallow spacing between operator '=' in class property (proposal/class-property-space-infix-ops)
 
 This rule allows you to enforce require or disallow spacing between operator '=' in class property.
 
@@ -14,7 +14,7 @@ This rule accepts a single options argument. default `always`, it for require sp
 
 ```json
 {
-  "proposal-class/'class-property-space-infix-ops": ["error", "always"]
+  "proposal/'class-property-space-infix-ops": ["error", "always"]
 }
 ```
 
@@ -30,7 +30,7 @@ class A {
 ### never
 
 ```js
-/* eslint proposal-class/'class-property-space-infix-ops: ["error", "never"] */
+/* eslint proposal/'class-property-space-infix-ops: ["error", "never"] */
 class A {
   static foo='Alice'
   bar=() => {}
@@ -54,7 +54,7 @@ class A {
 ```
 
 ```js
-/* eslint proposal-class/'class-property-space-infix-ops: ["error", "never"] */
+/* eslint proposal/'class-property-space-infix-ops: ["error", "never"] */
 class A {
   static foo = 'Alice'
   bar = () => {}
@@ -71,7 +71,7 @@ class A {
 ```
 
 ```js
-/* eslint proposal-class/'class-property-space-infix-ops: ["error", "never"] */
+/* eslint proposal/'class-property-space-infix-ops: ["error", "never"] */
 class A {
   static foo='Alice'
   bar=() => {}

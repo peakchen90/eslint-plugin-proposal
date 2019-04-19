@@ -9,13 +9,13 @@ module.exports = {
         ecmaVersion: 6
       },
       plugins: [
-        'proposal-class'
+        'proposal'
       ],
       rules: {
-        'proposal-class/class-property-space-infix-ops': 'error',
-        'proposal-class/class-property-no-extra-semi': 'error',
-        'proposal-class/class-property-no-semi-spacing': 'error',
-        'proposal-class/no-dupe-class-property': 'error'
+        'proposal/class-property-space-infix-ops': 'error',
+        'proposal/class-property-no-extra-semi': 'error',
+        'proposal/class-property-no-semi-spacing': 'error',
+        'proposal/no-dupe-class-property': 'error'
       }
     }
   }

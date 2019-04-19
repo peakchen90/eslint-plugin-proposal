@@ -1,4 +1,4 @@
-# disallow unnecessary semicolons in class property (proposal-class/class-property-no-extra-semi)
+# disallow unnecessary semicolons in class property (proposal/class-property-no-extra-semi)
 
 This rule allows you to enforce disallow unnecessary semicolons in class property.
 
