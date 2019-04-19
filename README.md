@@ -10,6 +10,11 @@
 
 some rules for proposal class. eg: class property.
 
+
+> **This package is migrated to [`eslint-plugin-proposal`](https://github.com/peakchen90/eslint-plugin-proposal), please use `eslint-plugin-proposal` instead of `eslint-plugin-proposal-class`.**
+
+
+
 ## Installation
 
 You'll first need to install [ESLint](http://eslint.org):

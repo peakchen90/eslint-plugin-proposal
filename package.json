@@ -1,7 +1,7 @@
 {
   "name": "eslint-plugin-proposal-class",
-  "version": "1.1.4",
-  "description": "some rules for proposal class. eg: class property.",
+  "version": "1.1.6",
+  "description": "This package is migrated to eslint-plugin-proposal(https://github.com/peakchen90/eslint-plugin-proposal)",
   "keywords": [
     "eslint",
     "eslintplugin",
@@ -12,19 +12,9 @@
   ],
   "author": "peakchen90 <1558267774@qq.com>",
   "main": "index.js",
-  "files": [
-    "lib",
-    "index.js"
-  ],
   "scripts": {
     "test": "mocha tests --recursive"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/peakchen90/eslint-plugin-proposal-class"
-  },
-  "homepage": "https://github.com/peakchen90/eslint-plugin-proposal-class",
-  "bugs": "https://github.com/peakchen90/eslint-plugin-proposal-class/issues",
   "peerDependencies": {
     "eslint": ">=4.0.0"
   },
