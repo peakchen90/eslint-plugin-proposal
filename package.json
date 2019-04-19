@@ -15,6 +15,12 @@
   "scripts": {
     "test": "mocha tests --recursive"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/peakchen90/eslint-plugin-proposal"
+  },
+  "homepage": "https://github.com/peakchen90/eslint-plugin-proposal",
+  "bugs": "https://github.com/peakchen90/eslint-plugin-proposal/issues",
   "peerDependencies": {
     "eslint": ">=4.0.0"
   },
