@@ -56,6 +56,7 @@ Then configure the rules you want to use under the rules section.
 * [proposal/class-property-no-extra-semi](./docs/rules/class-property-no-extra-semi.md) disallow unnecessary semicolons in class property.
 * [proposal/class-property-no-semi-spacing](./docs/rules/class-property-no-semi-spacing.md) disallow spacing before semicolons in class property.
 * [proposal/class-property-no-dupe-property](docs/rules/class-property-no-dupe-property.md) disallow duplicate class property.
+* [proposal/class-property-no-initialized](docs/rules/class-property-no-initialized.md) disallow uninitialized class property.
 * [proposal/no-dynamic-import](docs/rules/no-dynamic-import.md) disallow use dynamic import syntax.
 
 
