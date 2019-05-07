@@ -9,6 +9,9 @@ new RuleTester({
 }).run('class-property-no-dupe-property', rule, {
   valid: [
     `class A {
+      foo
+    }`,
+    `class A {
       static foo = 'Alice'
       static bar = 'Bob'
     }`,

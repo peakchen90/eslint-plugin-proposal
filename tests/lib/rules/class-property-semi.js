@@ -11,6 +11,13 @@ new RuleTester({
     {
       code: `
         class A {
+          foo;
+        }
+    `
+    },
+    {
+      code: `
+        class A {
           static foo = 'Alice';
           bar = () => {};
         }

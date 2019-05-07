@@ -9,6 +9,9 @@ new RuleTester({
 }).run('class-property-no-semi-spacing', rule, {
   valid: [
     `class A {
+      foo
+    }`,
+    `class A {
       static foo = 'Alice';
     }`,
     `class A {
