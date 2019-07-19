@@ -14,7 +14,7 @@ This rule accepts a single options argument. default `always`, it for require sp
 
 ```json
 {
-  "proposal/'class-property-space-infix-ops": ["error", "always"]
+  "proposal/class-property-space-infix-ops": ["error", "always"]
 }
 ```
 
@@ -30,7 +30,7 @@ class A {
 ### never
 
 ```js
-/* eslint proposal/'class-property-space-infix-ops: ["error", "never"] */
+/* eslint proposal/class-property-space-infix-ops: ["error", "never"] */
 class A {
   static foo='Alice'
   bar=() => {}
@@ -54,7 +54,7 @@ class A {
 ```
 
 ```js
-/* eslint proposal/'class-property-space-infix-ops: ["error", "never"] */
+/* eslint proposal/class-property-space-infix-ops: ["error", "never"] */
 class A {
   static foo = 'Alice'
   bar = () => {}
@@ -71,7 +71,7 @@ class A {
 ```
 
 ```js
-/* eslint proposal/'class-property-space-infix-ops: ["error", "never"] */
+/* eslint proposal/class-property-space-infix-ops: ["error", "never"] */
 class A {
   static foo='Alice'
   bar=() => {}
