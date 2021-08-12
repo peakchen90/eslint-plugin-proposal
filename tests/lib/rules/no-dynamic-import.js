@@ -4,7 +4,7 @@ const rule = require('../../../lib/rules/no-dynamic-import');
 new RuleTester({
   parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 9,
     sourceType: 'module'
   }
 }).run('no-dynamic-import', rule, {

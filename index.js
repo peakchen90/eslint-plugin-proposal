@@ -6,7 +6,7 @@ module.exports = {
     recommended: {
       parser: 'babel-eslint',
       parserOptions: {
-        ecmaVersion: 2020,
+        ecmaVersion: 9,
         sourceType: 'module'
       },
       plugins: [

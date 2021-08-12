@@ -4,7 +4,7 @@ const rule = require('../../../lib/rules/class-property-no-dupe-property');
 new RuleTester({
   parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 2020,
+    ecmaVersion: 9,
     sourceType: 'module'
   }
 }).run('class-property-no-dupe-property', rule, {
