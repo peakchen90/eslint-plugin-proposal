@@ -19,7 +19,8 @@
     "index.js"
   ],
   "scripts": {
-    "test": "mocha tests --recursive"
+    "test": "mocha tests --recursive",
+    "prepublishOnly": "npm run test"
   },
   "repository": {
     "type": "git",
