@@ -1,6 +1,6 @@
 {
   "name": "eslint-plugin-proposal",
-  "version": "2.3.1",
+  "version": "2.3.2",
   "description": "some rules for ECMAScript proposal. eg: class property.",
   "keywords": [
     "eslint",
@@ -29,14 +29,14 @@
   "homepage": "https://github.com/peakchen90/eslint-plugin-proposal",
   "bugs": "https://github.com/peakchen90/eslint-plugin-proposal/issues",
   "peerDependencies": {
-    "eslint": ">= 4.12.1"
+    "eslint": ">= 4.19.1"
   },
   "dependencies": {
     "babel-eslint": "^10.0.1",
     "requireindex": "^1.2.0"
   },
   "devDependencies": {
-    "eslint": "^4.19.1",
+    "eslint": "4.19.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",
     "mocha": "^3.1.2"
