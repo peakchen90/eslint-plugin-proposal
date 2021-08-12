@@ -28,13 +28,13 @@
   "homepage": "https://github.com/peakchen90/eslint-plugin-proposal",
   "bugs": "https://github.com/peakchen90/eslint-plugin-proposal/issues",
   "peerDependencies": {
-    "eslint": ">=4.0.0"
+    "eslint": ">= 4.12.1"
   },
   "dependencies": {
-    "requireindex": "^1.2.0"
+    "requireindex": "^1.2.0",
+    "babel-eslint": "^10.0.1"
   },
   "devDependencies": {
-    "babel-eslint": "^10.0.1",
     "eslint": "^4.19.1",
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.16.0",

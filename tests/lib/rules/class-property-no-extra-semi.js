@@ -4,7 +4,8 @@ const rule = require('../../../lib/rules/class-property-no-extra-semi');
 new RuleTester({
   parser: 'babel-eslint',
   parserOptions: {
-    ecmaVersion: 6
+    ecmaVersion: 2020,
+    sourceType: 'module'
   }
 }).run('class-property-no-extra-semi', rule, {
   valid: [
